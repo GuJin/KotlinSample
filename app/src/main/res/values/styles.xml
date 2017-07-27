@@ -1,8 +1,30 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar"/>
+
+    <style name="DetailTextView">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SugDetailTextView" parent="DetailTextView">
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+    <style name="TitleTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="SecondTitleTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">10dp</item>
     </style>
 
 </resources>

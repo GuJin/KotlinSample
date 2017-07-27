@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical"
+    app:contentPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TitleTextView"
+                android:text="舒适度指数"/>
+
+            <TextView
+                android:id="@+id/sug_comf_brf"
+                style="@style/SecondTitleTextView"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sug_comf_txt"
+            style="@style/SugDetailTextView"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TitleTextView"
+                android:text="洗车指数"/>
+
+            <TextView
+                android:id="@+id/sug_cw_brf"
+                style="@style/SecondTitleTextView"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/sug_cw_txt"
+            style="@style/SugDetailTextView"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TitleTextView"
+                android:text="穿衣指数"/>
+
+            <TextView
+                android:id="@+id/sug_drsg_brf"
+                style="@style/SecondTitleTextView"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sug_drsg_txt"
+            style="@style/SugDetailTextView"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TitleTextView"
+                android:text="感冒指数"/>
+
+            <TextView
+                android:id="@+id/sug_flu_brf"
+                style="@style/SecondTitleTextView"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sug_flu_txt"
+            style="@style/SugDetailTextView"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TitleTextView"
+                android:text="运动指数"/>
+
+            <TextView
+                android:id="@+id/sug_sport_brf"
+                style="@style/SecondTitleTextView"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/sug_sport_txt"
+            style="@style/SugDetailTextView"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TitleTextView"
+                android:text="旅游指数"/>
+
+            <TextView
+                android:id="@+id/sug_trav_brf"
+                style="@style/SecondTitleTextView"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sug_trav_txt"
+            style="@style/SugDetailTextView"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TitleTextView"
+                android:text="紫外线指数"/>
+
+            <TextView
+                android:id="@+id/sug_uv_brf"
+                style="@style/SecondTitleTextView"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sug_uv_txt"
+            style="@style/SugDetailTextView"
+            android:layout_marginBottom="0dp"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
